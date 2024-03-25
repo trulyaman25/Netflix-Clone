@@ -1,4 +1,7 @@
 ![image](demo/imageOne.png)
+![image](demo/imageTwo.png)
+![image](demo/imageThree.png)
+![image](demo/imageFour.png)
 
 # Netflix Clone Project
 
