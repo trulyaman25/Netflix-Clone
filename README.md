@@ -38,8 +38,8 @@ For a firsthand experience, kindly explore the project at [Netflix Clone](https:
 
 ## Images
 
-![image](demo/imageOne.png)
-![image](demo/imageTwo.png)
-![image](demo/imageThree.png)
-![image](demo/imageFour.png)
+![image](prototypeImages/demoOne.png)
+![image](prototypeImages/demoTwo.png)
+![image](prototypeImages/demoThree.png)
+![image](prototypeImages/demoFour.png)
 ---
