@@ -1,7 +1,3 @@
-![image](demo/imageOne.png)
-![image](demo/imageTwo.png)
-![image](demo/imageThree.png)
-![image](demo/imageFour.png)
 
 # Netflix Clone Project
 
@@ -39,4 +35,11 @@ For a firsthand experience, kindly explore the project at [Netflix Clone](https:
 - Enhance the mobile responsiveness for better viewing on smaller devices.
 - Add more interactive features such as user authentication and search functionality.
 - Enhance design elements for a more polished and professional look.
+
+## Images
+
+![image](demo/imageOne.png)
+![image](demo/imageTwo.png)
+![image](demo/imageThree.png)
+![image](demo/imageFour.png)
 ---
