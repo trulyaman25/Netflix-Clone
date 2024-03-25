@@ -42,4 +42,5 @@ For a firsthand experience, kindly explore the project at [Netflix Clone](https:
 ![image](prototypeImages/demoTwo.png)
 ![image](prototypeImages/demoThree.png)
 ![image](prototypeImages/demoFour.png)
+![image](prototypeImages/demoFive.png)
 ---
