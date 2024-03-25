@@ -1,6 +1,7 @@
 # Netflix Clone Project
 
 This project is a clone of the Netflix website created using HTML and CSS. It aims to replicate the user interface and some functionalities of the original Netflix site, providing a visually appealing and responsive design.
+For a firsthand experience, kindly explore the project at [Netflix Clone](https://trulyaman25.github.io/Netflix-Clone/).
 
 ## Features
 
