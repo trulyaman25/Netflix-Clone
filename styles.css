@@ -1,0 +1,395 @@
+@font-face {
+    font-family: NetflixSans;
+    font-weight: 100;
+    src: url('assets/fonts/1.woff');
+}
+
+@font-face {
+    font-family: NetflixSans;
+    font-weight: 300;
+    src: url('assets/fonts/2.woff');
+}
+
+@font-face {
+    font-family: NetflixSans;
+    font-weight: 400;
+    src: url('assets/fonts/3.woff');
+}
+
+@font-face {
+    font-family: NetflixSans;
+    font-weight: 500;
+    src: url('assets/fonts/4.woff');
+}
+
+@font-face {
+    font-family: NetflixSans;
+    font-weight: 700;
+    src: url('assets/fonts/5.woff');
+}
+
+@font-face {
+    font-family: NetflixSans;
+    font-weight: 900;
+    src: url('assets/fonts/6.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: NetflixSans;
+}
+
+header {
+    height: 700px;
+    width: 100%;
+    background-image: url('assets/images/imgOne.jpg');
+    background-position: center center;
+    background-size: max(1250px, 100vw);
+    background-repeat: no-repeat;
+    border-bottom: 7px solid #292929;
+    color: white;
+    position: relative;
+}
+
+.overlay {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+nav {
+    width: 60vw;
+    height: 60px;
+    margin: auto;
+    padding: 10px 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 148px;
+}
+
+.buttons {
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in {
+    width: 77px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.sign-in:hover {
+    background-color: #c50812;
+    cursor: pointer;
+}
+
+.lang-dropdown {
+    width: 126px;
+    height: 32px;
+    background-color: #1d1d1db9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px 5px 5px 5px;
+}
+
+select option {
+    background-color: white;
+    color: black;
+}
+
+.welcome {
+    height: 90%;
+    width: 100%;
+    color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome span {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome> :nth-child(1){
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.welcome> :nth-child(2){
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.welcome> :nth-child(3){
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.user-input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+
+input[type="text"] {
+    width: 358px;
+    height: 56px;
+    margin-right: 7px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #22222296;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.get-started {
+    width: 210px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E50914;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.get-started:hover {
+    background-color: #c50812;
+    cursor: pointer;
+}
+
+.arrow {
+    display: inline;
+    margin: 7px 0 0 0;
+}
+
+.section {
+    width: 100%;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #292929;
+}
+
+.sectionOverlay {
+    width: 60vw;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textArea {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.textArea> :nth-child(1){
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.textArea> :nth-child(2){
+    font-size: 23.5px;
+    font-weight: 400;
+}
+
+.media {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.media img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.media video {
+    width: 74%;
+    height: 74%;
+    padding: 0 0 10px 2px;
+    position: relative;
+}
+
+.media #videoTwo {
+    width: 62.5%;
+    height: 62.5%;
+    top: -75px;
+    position: relative;
+}
+
+.sectionFAQ {
+    width: 100%;
+    height: 920px;
+    background-color: black;
+    border-bottom: 8px solid #292929;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOverlayFAQ{
+    width: 60vw;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.sectionOverlayFAQ> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 60px 0 30px 0;
+}
+
+.faqButtonSection {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    width: 100%;
+    height: 84px;
+    background-color: #302f2f;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button:hover {
+    transition: all 0.3s ease-out;
+    background-color: #585858;
+    cursor: pointer;
+}
+
+.button span {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    padding: 15px 15px 15px 30px;
+}
+
+.button> img {
+    filter: invert(1);
+    padding: 15px 20px 15px 15px;
+}
+
+.sectionOverlayFAQ .input {
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input #textOne{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footOverlay {
+    width: 60vw;
+    height: 100%;
+}
+
+.footOverlay #call{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.753);
+    margin: 60px 0 10px 0;
+}
+
+.links {
+    color: rgba(255, 255, 255, 0.753);
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.column p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer> .footOverlay> .lang-dropdown {
+    margin-top: 15px;
+}
+
+footer> .footOverlay> span {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.753);
+}
